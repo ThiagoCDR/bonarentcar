@@ -1,0 +1,76 @@
+.rental-details-page {
+    padding: 60px 20px;
+    max-width: 800px;
+    /* Limit width for better centered look */
+    margin: 0 auto;
+}
+
+.confirmation-table-wrapper {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.confirmation-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.confirmation-table td {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+
+.confirmation-table tr:last-child td {
+    border-bottom: none;
+}
+
+.w-image {
+    width: 150px;
+}
+
+.car-thumbnail {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.car-name-cell h3 {
+    margin: 0 0 5px 0;
+    color: var(--dark-color);
+}
+
+.total-price-cell {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.text-muted {
+    columns: #777;
+    font-size: 0.9rem;
+}
+
+.actions {
+    text-align: right;
+}
+
+.btn-lg {
+    padding: 15px 40px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .car-thumbnail {
+        width: 80px;
+        height: 60px;
+    }
+
+    .w-image {
+        width: 100px;
+    }
+}
