@@ -21,6 +21,7 @@ import TestimonialsSection from './components/TestimonialsSection';
 import NewsletterSection from './components/NewsletterSection';
 
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const GOOGLE_CLIENT_ID = "217265830458-g1u6oha3amn76qrslu5fpl9494p4dj1a.apps.googleusercontent.com";
 
@@ -70,6 +71,7 @@ function App() {
                 } />
               </Routes>
               <Footer />
+              <SpeedInsights />
             </div>
           </Router>
         </DataProvider>
